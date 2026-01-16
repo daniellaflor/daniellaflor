@@ -7,7 +7,7 @@ Sou uma estudante do youxlab, apaixonada por tecnologia, inovação, resolução
 
 <div>
   
-  | ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=joaoothaviofabri&theme=dracula) | ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=joaoothaviofabri&theme=dracula) | ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=joaoothaviofabri&theme=dracula&utcOffset=8) |
+  | ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=daniellaflor&theme=dracula) | ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=daniellaflor&theme=dracula) | ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=daniellaflor&theme=dracula&utcOffset=8) |
   | :-: | :-: | :-: |
   
 </div>

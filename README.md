@@ -14,8 +14,10 @@ Sou uma estudante do youxlab, apaixonada por tecnologia, inovação, resolução
 
 
 <div>
-  <img align="center" alt="Daniella-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Daniella-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Daniella-PYTHON" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg">
+  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Java-Dark.svg">
+  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Python-Dark.svg">
+  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/PostgreSQL-Dark.svg">
+  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/HTML.svg">
+  <img width="40" src="https://github.com/tandpfun/skill-icons/blob/main/icons/CSS.svg">
 </div>
 

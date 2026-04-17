@@ -19,14 +19,15 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
+    @Column(nullable = false, length = 100)
     private String nome;
 
-    @Column(unique = true)
+    @Column(unique = true, length = 150)
     private String email;
 
+    @Column(length = 20)
     private String telefone;
 
-    @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Venda> compras = new ArrayList<>();
 }

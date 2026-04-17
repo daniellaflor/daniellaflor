@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+
 @Data
 @Entity
 @NoArgsConstructor
@@ -19,24 +20,24 @@ public class Venda {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "produto_id", nullable = false)
     private Produto produto;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "cliente_id", nullable = false)
     private Cliente cliente;
 
     @Column(nullable = false)
     private Integer quantidade;
 
-    @Column(nullable = false)
+    @Column(name = "preco_unitario", nullable = false, precision = 10, scale = 2)
     private BigDecimal precoUnitario;
 
-    @Column(nullable = false)
+    @Column(name = "valor_total", nullable = false, precision = 10, scale = 2)
     private BigDecimal valorTotal;
 
-    @Column(nullable = false)
+    @Column(name = "data_venda", nullable = false)
     private LocalDateTime dataVenda;
 
     @PrePersist

@@ -22,12 +22,13 @@ public class User implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(unique = true, nullable = false)
+    @Column(unique = true, nullable = false, length = 50)
     private String login;
 
     @Column(nullable = false)
     private String password;
 
+    @Column(length = 20)
     private String role;
 
     @Override

@@ -7,6 +7,11 @@
   
 </div>
 
+<div align="center" witdh="100%">
+  <a href="https://github.com/joaoothaviofabri">
+    <img src="https://github.com/user-attachments/assets/e360f248-6fb6-4ead-84df-efec0e110fd38" width="210">
+</div>
+    
 <!-- Estatísticas -->
 <div align="center">
   <a href="https://github.com/daniellaflor">

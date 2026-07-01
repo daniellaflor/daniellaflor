@@ -5,9 +5,10 @@ import com.jogoDePoker.poker.model.enums.Valor;
 import jakarta.persistence.*;
 import lombok.Data;
 
+@Entity
 @Data
-@Table("/game")
-public class Card {
+@Table(name = "cartas")
+public class Carta {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,9 +16,21 @@ public class Card {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private Naipe naipe;
+    private Valor valor;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private Valor valor;
+    private Naipe naipe;
+
+    public Carta() {
+    }
+
+    public Carta(Valor valor, Naipe naipe) {
+        this.valor = valor;
+        this.naipe = naipe;
+    }
+
+    public int getForca() {
+        return valor.getForca();
+    }
 }

@@ -150,8 +150,3 @@ const styles = {
 export default ProdutoLista;
 
 
-// Mostra lista de produtos
-
-// Formulário para cadastrar novos produtos
-
-// Botão para ver detalhes (estoque, vendidos)

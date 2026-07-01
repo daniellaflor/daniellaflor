@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.swing.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
@@ -52,6 +51,14 @@ public class Produto {
         dataAtualizacao = LocalDateTime.now();
     }
 
+    public String getNome() {
+        return this.nome;
+    }
+
+    public BigDecimal getPreco() {
+        return this.preco;
+    }
+
     public Integer getQuantidadeEstoque() {
         return this.quantidadeEstoque;
     }
@@ -59,4 +66,5 @@ public class Produto {
     public Integer getQuantidadeVendida() {
         return this.quantidadeVendida;
     }
+
 }

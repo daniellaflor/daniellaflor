@@ -1,4 +1,11 @@
 package com.gerenciar.gerenciadorDeTarefas.dto;
 
-public class TarefaDTO {
+import com.gerenciar.gerenciadorDeTarefas.model.Status;
+
+public record TarefaDTO(
+
+        String titulo,
+        String descricao,
+        Status status
+){
 }

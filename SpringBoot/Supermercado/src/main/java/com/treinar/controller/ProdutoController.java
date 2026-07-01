@@ -2,24 +2,27 @@ package com.treinar.controller;
 
 import com.treinar.dto.ProdutoRequestDTO;
 import com.treinar.dto.ProdutoResponseDTO;
+import com.treinar.model.Produto;
 import com.treinar.service.ProdutoService;
 import jakarta.validation.Valid;
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Data
 @RestController
 @RequestMapping("/produtos")
 @RequiredArgsConstructor
 public class ProdutoController {
 
     private final ProdutoService service;
+
 
     @PostMapping
     public ResponseEntity<ProdutoResponseDTO> cadastrar(@Valid @RequestBody ProdutoRequestDTO dto) {

@@ -71,4 +71,8 @@ public class ProdutoService {
                 p.getPreco(), p.getQuantidadeEstoque(), p.getQuantidadeVendida()
         );
     }
+
+    public Produto buscarPorId(Long id) {
+        return repository.findById(id).orElse(null);
+    }
 }

@@ -10,7 +10,7 @@ public record ProdutoRequestDTO(
         @Size(min = 3, max = 100, message = "Nome deve ter entre 3 e 100 caracteres")
         String nome,
 
-        @Size(max = 500, message = "Descrição muito longa")
+        @Size(max = 50, message = "Descrição muito longa")
         String descricao,
 
         @NotNull(message = "Preço é obrigatório")

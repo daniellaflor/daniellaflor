@@ -14,10 +14,11 @@
 	<groupId>com.projeto</groupId>
 	<artifactId>ContaBanco</artifactId>
 	<version>1.0.0</version>
-	<name>ContaBanco</name>
 
 	<properties>
-		<java.version>25</java.version>
+		<java.version>21</java.version> <!-- ⚠️ Mude para 21 -->
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
 	</properties>
 
 	<dependencies>
@@ -43,6 +44,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<excludes>
+						<exclude>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+						</exclude>
+					</excludes>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

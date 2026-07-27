@@ -1,4 +1,4 @@
-💻​👩‍💻​ Atualmente trabalhando no Instituto Youx
+💻​👩‍💻​ Atualmente trabalhando no Instituto Youx \n
 💻​ Desenvolvedora Full Stack
 
 
